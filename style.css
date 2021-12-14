@@ -1,0 +1,102 @@
+body {
+    background: url("./galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+h1 {
+    font-family: 'Bakbak One', cursive;
+    color:#ffffff; 
+    font-size: 35px;
+    text-align: center;
+    margin-top:10px;
+}
+
+h3 {
+    font-family: 'Bakbak One', cursive;
+    color:#ffffff;
+    font-size:20px;
+    text-align: center;
+
+}
+
+.entrada_data {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap:15px;
+
+}
+
+#data {
+    text-align:center;
+    font-family: 'Bakbak One', cursive;
+    border-radius:5px;
+}
+
+#btn {
+    font-family: 'Bakbak One', cursive;
+    font-size: 15px;
+    border-radius:5px;
+    width: 80px;
+    background: #c78ee3;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    
+}
+
+.apod {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:70%;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+#titulo_img {
+    font-family:'Bakbak One', cursive; 
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff;
+
+
+}
+
+#foto {
+    margin: 30px;
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+
+}
+
+#autor {
+    font-family:'Bakbak One', cursive; 
+    color:#ffffff;
+    
+}
+
+.text {
+    text-align: justify;
+    width: 50%;
+    height: 40%;
+    
+}
+
+#explica_foto {
+    font-family:'Bakbak One', cursive;
+    margin-top: 30px;
+    color:#ffffff;
+    
+
+}
